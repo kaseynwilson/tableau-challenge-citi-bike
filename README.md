@@ -19,6 +19,14 @@
   * Year of Birth
 
 ## Data Cleansing:
-  * Using Jupyter Notebook I imported the 24 CSV files for the 2019 and 2020 datasets. 
-  * I performed the following tasks in order to perform the desired analysis:
-    1. 
+Using Jupyter Notebook I imported the 24 CSV files for the 2019 and 2020 datasets. I performed the following tasks in order to perform the desired analysis:
+  * Concatenated the individual dataframes from the CSV files to ultimately have one dataframe
+  * Updated gender values from 0-2 to descriptive string values of Unknown, Male and Female respectively.
+  * Split the 'starttime' column into Date and Time field and further split the Date into Year, Month and Day in order to have Year and Month values for analysis. 
+  * Dropped columns that were not needed for analysis
+  * Used the Birth Year and newly created Year column to calculate the approximate age of the users. 
+  * Renamed Columns to have uniform and descriptive column headers
+  * Exported newly combined and cleansed dataframe to a CSV 
+
+## Analysis and Conclusions:
+  * 
